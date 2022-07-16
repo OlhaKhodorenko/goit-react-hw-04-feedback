@@ -1,0 +1,26 @@
+button {
+  text-transform: capitalize;
+  cursor: pointer;
+  overflow: hidden;
+  border: transparent;
+  border-radius: 4px;
+  width: 120px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #95bef4;
+}
+
+button:first-of-type:hover {
+  background-color: #68dd64;
+}
+button:last-of-type:hover {
+  background-color: #f38279;
+}
+button:hover {
+  background-color: #f4f295;
+}
+.badBtn {
+  background-color: #f38279;
+}
